@@ -73,7 +73,7 @@ async def lifespan(app: FastAPI):
 # Create FastAPI app
 app = FastAPI(
     title="MCP Python Agent",
-    description="Machine Comprehension Protocol server for VS Code",
+    description="Model Context Protocol server for VS Code",
     version="1.0.0",
     lifespan=lifespan,
     docs_url="/docs" if DEBUG else None,
@@ -279,7 +279,7 @@ async def sse(request: Request):
 async def mcp_post(request: Request):
     """Main MCP endpoint that handles JSON-RPC requests from VS Code.
     
-    This endpoint implements the Machine Comprehension Protocol for VS Code extensions.
+    This endpoint implements the Model Context Protocol for VS Code extensions.
     It validates the incoming requests, processes them, and returns appropriate responses.
     """
     request_id = str(uuid.uuid4())

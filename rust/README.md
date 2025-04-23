@@ -1,8 +1,10 @@
 # Rust Terraform MCP Server ⚠️
 
-This is a Rust implementation of the Machine Comprehension Protocol (MCP) server for Terraform using the tfmcp tool. It aims to provide a server that implements the MCP protocol for use with VS Code and other MCP clients.
+A Rust implementation of the Model Context Protocol (MCP) server for Terraform using the tfmcp tool. This server focuses on infrastructure as code operations through the MCP protocol.
 
 **Status: In Progress**
+
+_Part of the [MCP Servers](https://github.com/cploutarchou/mcp-servers) collection by Christos Ploutarchou._
 
 ## Features
 
@@ -64,6 +66,12 @@ Add the following to your VS Code settings.json:
   "mcp.terraform.enableAutoConnect": true
 }
 ```
+
+## License
+
+MIT License - Copyright (c) 2025 Christos Ploutarchou
+
+See [LICENSE](../LICENSE) file for details.
 
 ## Configuration
 

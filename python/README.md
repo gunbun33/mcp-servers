@@ -1,8 +1,10 @@
 # MCP Python Server ✅
 
-This is a production-ready Machine Comprehension Protocol (MCP) server implementation in Python. It provides a robust, scalable server that implements the MCP protocol for use with VS Code and other MCP clients.
+A production-ready Model Context Protocol (MCP) server implementation in Python using FastAPI. This server fully implements the MCP protocol for seamless integration with VS Code and other MCP clients.
 
 **Status: Production Ready**
+
+_Part of the [MCP Servers](https://github.com/cploutarchou/mcp-servers) collection by Christos Ploutarchou._
 
 ## Features
 
@@ -104,4 +106,6 @@ The server is built with FastAPI and follows best practices for production-ready
 
 ## License
 
-MIT
+MIT License - Copyright (c) 2025 Christos Ploutarchou
+
+See [LICENSE](../LICENSE) file for details.

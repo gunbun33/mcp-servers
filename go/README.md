@@ -1,8 +1,10 @@
 # Go MCP Server ⚠️
 
-This is a Go implementation of the Machine Comprehension Protocol (MCP) server using the centralmind/gateway image. It provides a server that implements parts of the MCP protocol for use with VS Code and other MCP clients.
+A Go implementation of the Model Context Protocol (MCP) server using the centralmind/gateway image. This server implements parts of the MCP protocol with PostgreSQL integration for database operations.
 
 **Status: In Progress**
+
+_Part of the [MCP Servers](https://github.com/cploutarchou/mcp-servers) collection by Christos Ploutarchou._
 
 ## Features
 
@@ -73,3 +75,9 @@ The server can be configured using the `config.yaml` file. Key configuration opt
 | DEBUG | Enable debug mode | false |
 | MCP_SERVER_NAME | Server name | Go MCP Server |
 | MCP_SERVER_VERSION | Server version | 1.0.0 |
+
+## License
+
+MIT License - Copyright (c) 2025 Christos Ploutarchou
+
+See [LICENSE](../LICENSE) file for details.

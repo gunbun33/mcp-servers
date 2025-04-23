@@ -1,6 +1,6 @@
 # MCP Servers
 
-A collection of Machine Comprehension Protocol (MCP) servers implemented in different programming languages for use with VS Code and other MCP clients.
+A collection of Model Context Protocol (MCP) servers implemented in different programming languages for use with VS Code and other MCP clients.
 
 ## Overview
 
@@ -14,7 +14,7 @@ This repository contains MCP server implementations in three languages:
 
 ## What is MCP?
 
-The Machine Comprehension Protocol (MCP) is a protocol designed for communication between AI agents and tools/services. It enables AI systems to interact with various tools and services through a standardized interface.
+The Model Context Protocol (MCP) is a protocol designed for communication between AI agents and tools/services. It enables AI systems to interact with various tools and services through a standardized interface.
 
 ## Getting Started
 
@@ -43,7 +43,7 @@ docker-compose up mcp-python
 
 The Python MCP server is fully operational and production-ready:
 
-- Implements the complete MCP protocol
+- Implements the complete Model Context Protocol
 - Provides SSE and JSON-RPC endpoints
 - Includes comprehensive error handling and logging
 - Features Prometheus metrics for monitoring
