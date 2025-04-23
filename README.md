@@ -56,12 +56,16 @@ The Python MCP server is fully operational and production-ready:
 
 ### Go MCP Server (⚠️ In Progress)
 
-The Go MCP server is partially operational:
+The Go MCP server is currently in development:
 
-- Server starts successfully
-- SSE endpoint responds (but with 405 Method Not Allowed)
-- API endpoint responds (but with 302 Found, redirecting)
-- Requires further configuration to fully support the MCP protocol
+- Implements the core MCP protocol features
+- Uses PostgreSQL for database operations
+- Provides JSON-RPC and SSE endpoints
+- Includes advanced code assistance features:
+  - Code completion for multiple languages
+  - Code analysis and diagnostics
+  - Documentation lookup
+- Requires further testing and optimization
 
 **Endpoints:**
 - `GET /sse` - SSE endpoint (needs further configuration)
