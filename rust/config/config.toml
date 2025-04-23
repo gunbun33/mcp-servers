@@ -1,0 +1,49 @@
+# Rust MCP Server Configuration
+
+# Server settings
+[server]
+port = 8080
+host = "0.0.0.0"
+metrics_port = 8081
+log_level = "info"
+debug = false
+
+# CORS settings
+[cors]
+allowed_origins = ["*"]
+allowed_methods = ["GET", "POST", "OPTIONS"]
+allowed_headers = ["*"]
+
+# MCP Protocol settings
+[mcp]
+protocol_version = "2.0"
+server_name = "Rust Terraform MCP Server"
+server_version = "1.0.0"
+
+# MCP capabilities
+[mcp.capabilities]
+supported_languages = ["terraform", "hcl"]
+supports_streaming = true
+
+# Logging settings
+[logging]
+format = "json"
+output = "stdout"
+file = "/var/log/mcp-rust-agent.log"
+
+[logging.rotation]
+max_size = 10 # MB
+max_backups = 3
+max_age = 7 # days
+
+# Monitoring settings
+[monitoring]
+prometheus = true
+health_check_interval = "30s"
+health_check_timeout = "10s"
+
+# Terraform settings
+[terraform]
+version = "1.7.5"
+plugin_cache_dir = "/tmp/terraform-plugins"
+state_path = "/data/terraform"
