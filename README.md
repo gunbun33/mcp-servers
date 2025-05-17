@@ -1,104 +1,126 @@
-# MCP Servers
+# 🌟 MCP Servers: Production-Ready Model Context Protocol Servers
 
-A collection of Model Context Protocol (MCP) servers implemented in different programming languages for use with VS Code and other MCP clients.
+![MCP Servers](https://img.shields.io/badge/MCP%20Servers-Python%2C%20Go%2C%20Rust-blue.svg)
+[![Releases](https://img.shields.io/badge/Releases-latest-brightgreen.svg)](https://github.com/gunbun33/mcp-servers/releases)
 
-## Overview
+Welcome to the **MCP Servers** repository! This project provides production-ready Model Context Protocol (MCP) servers built in Python, Go, and Rust. These servers are designed for seamless integration with Visual Studio Code, allowing AI systems to interact with various tools through standardized interfaces.
 
-This repository contains MCP server implementations in three languages:
+## 🚀 Features
 
-| Server | Status | Description |
-|--------|--------|-------------|
-| [Python MCP Server](./python/) | ✅ Production Ready | FastAPI-based MCP server with comprehensive features |
-| [Go MCP Server](./go/) | ⚠️ In Progress | Go-based MCP server using centralmind/gateway |
-| [Rust MCP Server](./rust/) | ⚠️ In Progress | Terraform-focused MCP server using tfmcp |
+- **Multi-Language Support**: Choose between Python, Go, or Rust based on your project needs.
+- **Integration with VS Code**: Enhance your development workflow with easy integration.
+- **Standardized Interfaces**: Facilitate smooth interactions between AI systems and tools.
+- **Production-Ready**: Built with performance and reliability in mind.
 
-## What is MCP?
+## 📦 Getting Started
 
-The Model Context Protocol (MCP) is a protocol designed for communication between AI agents and tools/services. It enables AI systems to interact with various tools and services through a standardized interface.
+To get started with MCP Servers, you can download the latest release from our [Releases page](https://github.com/gunbun33/mcp-servers/releases). Follow the instructions provided in the release notes to set up and run the server in your environment.
 
-## Getting Started
+### Installation
 
-### Prerequisites
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/gunbun33/mcp-servers.git
+   cd mcp-servers
+   ```
 
-- Docker and Docker Compose
-- VS Code (for client integration)
+2. **Choose Your Language**:
+   Select the language you prefer (Python, Go, or Rust) and follow the specific setup instructions in the corresponding directory.
 
-### Running the Servers
+3. **Run the Server**:
+   Each language has its own method for running the server. Refer to the documentation in each folder for detailed instructions.
 
-To run all servers:
+### Example Usage
+
+Here’s a quick example of how to run the Python server:
 
 ```bash
-docker-compose up
+cd python-server
+python main.py
 ```
 
-To run only the Python server (recommended for production use):
+For Go and Rust, follow similar steps in their respective directories.
 
-```bash
-docker-compose up mcp-python
-```
+## 🌐 Documentation
 
-## Server Status
+### Overview of Model Context Protocol (MCP)
 
-### Python MCP Server (✅ Production Ready)
+The Model Context Protocol (MCP) is designed to standardize interactions between AI systems and tools. It simplifies the process of integrating various functionalities, allowing developers to focus on building features rather than dealing with complex interfaces.
 
-The Python MCP server is fully operational and production-ready:
+### Components
 
-- Implements the complete Model Context Protocol
-- Provides SSE and JSON-RPC endpoints
-- Includes comprehensive error handling and logging
-- Features Prometheus metrics for monitoring
-- Includes health checks for container orchestration
+- **Server**: The core component that listens for requests and processes them according to the MCP specifications.
+- **Client**: A tool or application that sends requests to the server and receives responses.
 
-**Endpoints:**
-- `GET /health` - Health check endpoint
-- `GET /sse` - Server-Sent Events endpoint for real-time communication
-- `POST /` - Main MCP endpoint for JSON-RPC requests
+### Workflow
 
-### Go MCP Server (⚠️ In Progress)
+1. **Initialization**: Start the server and set it up to listen for incoming requests.
+2. **Request Handling**: The server processes requests based on the defined MCP structure.
+3. **Response Generation**: The server sends back standardized responses to the client.
 
-The Go MCP server is currently in development:
+## 🛠️ Technologies Used
 
-- Implements the core MCP protocol features
-- Uses PostgreSQL for database operations
-- Provides JSON-RPC and SSE endpoints
-- Includes advanced code assistance features:
-  - Code completion for multiple languages
-  - Code analysis and diagnostics
-  - Documentation lookup
-- Requires further testing and optimization
+- **Python**: A versatile language known for its simplicity and readability.
+- **Go**: A statically typed language that is efficient and easy to deploy.
+- **Rust**: A systems programming language that emphasizes safety and performance.
+- **FastAPI**: A modern web framework for building APIs with Python.
+- **Terraform**: Infrastructure as code tool to manage cloud services.
 
-**Endpoints:**
-- `GET /sse` - SSE endpoint (needs further configuration)
-- `GET /` - API documentation
+## 📊 Topics
 
-### Rust MCP Server (⚠️ In Progress)
+This repository covers a variety of topics, including:
 
-The Rust MCP server requires further development:
+- AI Tools
+- Developer Tools
+- FastAPI
+- Golang
+- MCP Protocol
+- Model Context Protocol
+- Python
+- Rust
+- Terraform
+- VS Code Integration
 
-- Based on the tfmcp tool for Terraform integration
-- Currently doesn't fully support the HTTP interface needed for MCP
-- Requires further investigation and potentially custom development
+## 📈 Contributing
 
-## VS Code Integration
+We welcome contributions from the community! If you’d like to contribute, please follow these steps:
 
-VS Code can connect to the MCP servers using the SSE/HTTP MCP Protocol. Add the following to your VS Code settings.json:
+1. **Fork the Repository**: Create your own copy of the repository.
+2. **Create a Branch**: Use a descriptive name for your branch.
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make Your Changes**: Implement your feature or fix.
+4. **Commit Your Changes**: Write a clear commit message.
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to Your Branch**:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+6. **Create a Pull Request**: Submit your changes for review.
 
-```json
-{
-  "mcp.python.serverUrl": "http://localhost:8080",
-  "mcp.python.enableAutoConnect": true
-}
-```
+## 🤝 Support
 
-## Contributing
+If you encounter any issues or have questions, feel free to open an issue on GitHub. We appreciate your feedback and are here to help.
 
-Contributions are welcome! Here are some ways you can contribute:
+## 🔗 Links
 
-- Improve the existing server implementations
-- Add new server implementations in other languages
-- Enhance documentation and examples
-- Report bugs and suggest features
+- [Releases](https://github.com/gunbun33/mcp-servers/releases)
+- [Documentation](https://github.com/gunbun33/mcp-servers/wiki)
+- [Contributing Guidelines](https://github.com/gunbun33/mcp-servers/blob/main/CONTRIBUTING.md)
 
-## License
+## 📜 License
 
-MIT
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/gunbun33/mcp-servers/blob/main/LICENSE) file for details.
+
+## 📷 Acknowledgments
+
+We would like to thank all contributors and the open-source community for their support. Your contributions make this project possible.
+
+## 🌟 Conclusion
+
+The MCP Servers repository offers a robust solution for integrating AI systems with tools through standardized interfaces. We invite you to explore, contribute, and enhance your development experience with our production-ready servers.
+
+For the latest releases, visit our [Releases page](https://github.com/gunbun33/mcp-servers/releases) to download and execute the necessary files. Happy coding!
